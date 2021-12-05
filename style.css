@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #4aa1b5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card {
+
+    width: 400px;
+    background-color: #c2effa;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000070;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #122887;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #122887;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 15px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.label-float input:focus {
+    border-bottom: 3px solid #122887;
+}
+
+.label-float label {
+    color: #122887;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus+label,
+.label-float input:valid+label {
+    font-size: 10px;
+    margin: 0px;
+    color: #122887;
+}
+
+button {
+    background-color: transparent;
+    border-color: #122887;
+    color: #122887;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all .3s ease-out;
+}
+
+::-webkit-input-placeholder {
+    color: #b0c4c4
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
