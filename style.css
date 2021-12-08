@@ -105,3 +105,11 @@ button:hover {
     display: flex;
     justify-content: center;
 }
+
+.fa-eye {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #122887;
+}
